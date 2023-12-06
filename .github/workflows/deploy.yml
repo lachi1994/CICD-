@@ -1,4 +1,4 @@
-name: CICD for main
+name: CICD for github
 
 on:
   push:
@@ -50,6 +50,3 @@ jobs:
                npm install
                npm run build
                pm2 restart api
-            
-
-
